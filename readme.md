@@ -19,14 +19,18 @@ The tool is compatible with the PC, PS4, NSW and probably with all platform vers
 
 To unpack language pak files just drag&drop pak file onto the tool exe file or you can provide the file as one and only argument. The unpacked files will be created in a new folder (foldername is the name of the original .pak file!).
 The unpacked files has no proper names, these are hash names. Do not change them or the repack process create corrupted .pak file.
->BGE20.exe Text-en_US.pak
+```
+BGE20.exe Text-en_US.pak
+```
 
 <ins>Repack</ins>
 
 To repack just drag&drop the original pak file, and if the unpacked folder is existng, the tool will repack from the content of the folder.
 Recommended for repacking to drag&drop the unpacked folder onto the tool exe file.
 To repack, only the unpacked folder neccessary with the modified txt files, the tool will recreate the pak files based on the txt files and based on the txt file names, so DO NOT change the name of the txt files.
->BGE20.exe Text-en_US
+```
+BGE20.exe Text-en_US
+```
 
 ---
 **Need to know**
